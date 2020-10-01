@@ -32,14 +32,11 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!-- TestNG suite XML files -->
-                        <!--suppress UnresolvedMavenProperty -->
-                        <suiteXmlFile>${xmlFiles}</suiteXmlFile>
+                        <suiteXmlFile>{testng.xml}</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
-                        <!--suppress UnresolvedMavenProperty -->
-                        <executionbrowser>${browser}</executionbrowser>
                         <appURL>${url}</appURL>
-                    </systemPropertyVariables>
+                    </systemPropertyVariables/>
                 </configuration>
             </plugin>
 
