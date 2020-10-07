@@ -22,5 +22,8 @@ public class Testcase1  extends Stratclass {
         System.out.println("this is reportstest4");
     }
 
-
+@Test
+    public void Reportstest5(){
+        System.out.println("this is reportstest5");
+    }
 }
