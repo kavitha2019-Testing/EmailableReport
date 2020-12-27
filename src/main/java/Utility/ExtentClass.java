@@ -67,6 +67,7 @@ public class ExtentClass  extends TestListenerAdapter {
             catch (IOException e)
             {
                 e.printStackTrace();
+                
             }
         }
 
